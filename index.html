@@ -2,17 +2,132 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Martina Štefková &ndash; překladatelka angličtiny</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      @font-face {
+        font-family: 'special_eliteregular';
+        src: url('specialelite-webfont.woff2') format('woff2'),
+             url('specialelite-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+      body {
+        margin: 0;
+
+        font-family: 'special_eliteregular', serif;
+        line-height: 1.6em;
+        color: #222;
+
+        background-color: whitesmoke;
+      }
+      section {
+        width: 100%;
+        padding: 1em;
+      }
+      section.en {
+        background-color: #222;
+        color: whitesmoke;
+      }
+      section .inner {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-size: 1em;
+        font-weight: normal;
+        text-transform: uppercase;
+      }
+      a {
+        color: currentColor;
+        text-decoration: none;
+      }
+      blockquote {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      hr {
+        border: none;
+      }
+      hr:after {
+        content: '---';
+      }
+      .text-center {
+        text-align: center;
+      }
+      @media screen and (min-width: 800px) {
+        body {
+          min-height: 100vh;
+          display: flex;
+        }
+
+        section {
+          min-height: 100vh;
+          padding: 2em;
+          display: flex;
+          align-items: center;
+        }
+      }
+    </style>
+
+    <meta name="og:image" content="http://www.dvojjazycne.cz/martina-stefkova-preklady.jpg">
   </head>
   <body>
-    <div class="cs">
-      <h1>Martina Štefková</h1>
-      <p>překladatelka angličtiny</p>
-      <p>
-        <a href="callto:+420732219573"></a>+420 732 219 573<br>
-        <a href="mailto:">martina@dvojjazycne.cz</a><br>
-        <a href="http://www.dvojjazycne.cz">www.dvojjazycne.cz</a>
-      </p>
-    </div>
+    <section class="cs" lang="cs">
+      <div class="inner">
+        <div class="text-center">
+          <h1>Martina Štefková</h1>
+          <p>
+            překladatelka angličtiny
+          </p>
+          <p>
+            <a href="tel:+420732219573"></a>+420 732 219 573<br>
+            <a href="mailto:martina@dvojjazycne.cz">martina@dvojjazycne.cz</a><br>
+            <a href="http://www.dvojjazycne.cz">www.dvojjazycne.cz</a>
+          </p>
+          <hr>
+        </div>
+
+        <blockquote>
+          <p>
+            "Martina pro&nbsp;nás jako překladatelka pracuje od&nbsp;října 2016. Ceníme si jí jako kvalifikovaného a&nbsp;spolehlivého partnera.&nbsp;Je&nbsp;schopná pracovat rychle i&nbsp;v&nbsp;časovém presu.<br>
+            Navíc je&nbsp;za&nbsp;každých okolností vstřícná, profesionální a&nbsp;snadno se&nbsp;s&nbsp;ní spolupracuje. Martinu bez váhání doporučuji k&nbsp;jakékoliv překladatelské práci. V&nbsp;případě otázek mě neváhejte kontaktovat."
+          </p>
+          <footer>&ndash; <a href="mailto:imran@themascoteers.com">Imran Alam</a>, manažer marketingu, The Mascooters</footer>
+        </blockquote>
+      </div>
+
+    </section>
+
+    <section class="en" lang="en">
+      <div class="inner">
+        <div class="text-center">
+          <h1>Martina Štefková</h1>
+          <p>
+            English / Czech translator
+          </p>
+          <p>
+            <a href="tel:+420732219573"></a>+420 732 219 573<br>
+            <a href="mailto:martina@dvojjazycne.cz">martina@dvojjazycne.cz</a><br>
+            <a href="http://www.dvojjazycne.cz">www.dvojjazycne.cz</a>
+          </p>
+          <hr>
+        </div>
+
+        <blockquote>
+          <p>
+            "To&nbsp;whom it may concern, Martina&nbsp;has been working as a&nbsp;freelance translator for our company since October 2016 and she&nbsp;has been a&nbsp;reliable and qualified partner. She gets her job done fast and&nbsp;we appreciate her ability to&nbsp;work under deadline pressure.<br>
+            In addition to&nbsp;this she’s very collaborative, professional and easy to&nbsp;work with. I&nbsp;can without hesitation recommend Martina for any translating job. Please let&nbsp;me know if you have any further questions."
+          </p>
+          <footer>&ndash; <a href="mailto:imran@themascoteers.com">Imran Alam</a>, Marketing Manager, The Mascooters</footer>
+        </blockquote>
+      </div>
+    </section>
   </body>
 </html>
